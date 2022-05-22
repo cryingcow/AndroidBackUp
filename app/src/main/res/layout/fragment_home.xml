@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@color/white">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/textView"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="30dp"
+                 android:fontFamily="@font/bungee_shade"
+                 android:text="ようこそ"
+                 android:textColor="#B31515"
+                 android:textSize="40dp"
+                 android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="188dp"
+             android:layout_height="45dp"
+             android:layout_marginStart="30dp"
+             android:layout_marginTop="5dp"
+             android:fontFamily="@font/rock_salt"
+             android:text="HAKY RECIPE"
+             android:textColor="@color/black"
+             android:textSize="20dp"
+             android:textStyle="bold" />
+
+         </LinearLayout>
+         <ImageButton
+             android:id="@+id/imageBtn"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:layout_marginStart="90dp"
+             android:layout_marginTop="25dp"
+             app:srcCompat="@drawable/ic_baseline_person_24" />
+     </LinearLayout>
+
+     <AutoCompleteTextView
+         android:id="@+id/autoTV"
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_marginStart="16dp"
+         android:layout_marginEnd="16dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-3dp"
+         android:hint="Nhập món ăn"
+         android:completionHint="Select your food"
+         android:textColor="@color/black"
+         android:completionThreshold="1"
+         android:popupBackground = "#DDD9D9"
+         android:background="#DDD9D9"
+         />
+
+
+
+     <ListView
+         android:id="@+id/listView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginStart="10dp"
+         android:layout_marginBottom="10dp"
+         android:clipToPadding="false"
+         />
+ </LinearLayout>
+
+
+
+</FrameLayout>
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CategoriesFragment"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VỀ CHÚNG TÔI"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FF5722"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hiện nay con người ta thường có sở thích đi ăn uống nhiều nên dạo gần đây là nổi lên hiện tượng review thức ăn để đáp ứng nhu cầu của mọi người .Với những tâm hồn ăn uống, yêu ẩm thực thì việc viết bài review món ăn, nước uống nào đó bằng chính những cảm nhận riêng của mình để mọi người tham khảo quả là một điều vô cùng thú vị. Để viết review ẩm thực thành công, bạn không chỉ có nhắc đến món đó có gì, mùi vị, cách nấu, các bước thực hiện , nơi đâu bán , nguyên liệu ra sao mà còn phải nêu bật, lột tả thêm về không gian của quán ăn đó, bầu không khí, đánh giá, giá cả,…Một phần vì tụi em học môn ngôn ngữ mới và ngôn ngữ đó phát triển trên mobile nên em nghĩ đây không hẳn là một đề tài đòi hỏi phải có chuyên môn quá cao, chỉ cần đóng vai một người đi ăn uống nhiều, biết nhiều món ăn và khả năng nhìn nhận tỉ mỉ , chi tiết, đánh giá khách quan, sự thật về món ăn mà thôi. Nên nhóm chúng em đã quyết định phát triển ứng dụng review thức ăn giúp mọi người hiểu thêm về những món ăn. Mặc dù ứng dụng này bên ngoài thị trường có rất nhiều và người ta còn làm rất tốt và đầy đủ chức năng nhưng tại vì trong phù trù thời gian tụi em học có 3 tháng và với khả năng của nhóm em mới học những cái cơ bản cho nên tụi em phát triển ứng dụng được những chức năng cơ bản."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" HakyFood có nhiệm vụ mang đến cho bạn những món ngon mọi lúc mọi nơi. "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text=" Những món ăn, thức uống ngon, bổ, dễ làm được chúng tôi review một cách chi tiết nhất giúp cho các bạn có thể áp dụng công thức và cách làm để làm ra một cách dễ dàng."
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text=" Được làm việc và mang đến cho các bạn những điều tốt đẹp nhất chính là vinh hạnh cho đội ngũ sản xuất chúng tôi."
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text=" Working and bringing you the best is an honor for our production team."
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="30dp">
+
+           <ImageButton
+               android:id="@+id/fbButton"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/fblogo"
+               android:scaleType="fitXY"
+               android:background="@null"
+               android:layout_marginTop="10dp"
+               />
+           <TextView
+               android:id="@+id/txtView2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Facebook"
+               android:textColor="@color/black"
+               android:textSize="20sp"
+               android:layout_marginTop="15dp"
+               android:layout_marginStart="10dp"/>
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/insButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/instagram"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/txtView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/gmailButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gmaillogo"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/txtView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="demofood@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number: 0912345678"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop = "10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: 828 Sư Vạn Hạnh, Phường 13, Quận 10, TP.HCM"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop = "10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop = "30dp"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#878787"
+        android:progressTint="@color/red"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtView6"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text="Copyright @ 2021 Bản quyền thuộc về Nhật và Đạt"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>
+</ScrollView>
